@@ -1,0 +1,211 @@
+body {
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+html {
+  overflow-x: hidden !important;
+}
+
+/* Section Headings */
+
+.sectionHeading {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sectionHeading{
+  font-size: 28px !important;
+}
+/* cards */
+
+
+.showsNear {
+  padding: 0px 30px auto;
+}
+
+.sectionHeading {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+.cardContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+.card {
+  margin: 0 auto;
+}
+
+/* Cards after form  */
+
+
+.content1 {
+  padding: 50px;
+}
+
+.row h3 {
+  
+  color: white;
+
+} 
+.valueProp p {
+  color: rgb(197, 204, 202);
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sideAccent {
+  background-color: #302c2c;
+  width: 15px;
+}
+
+
+.imageContainer {
+  padding: 50px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: black;
+}
+
+/* Navigation links */
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-size: 15px;
+}
+
+/* Jumbotron  */
+.jumbotron {
+  background-image: url(../images/rockOn_dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron {
+  height: calc(100vh - 25px);
+  background-image: url("../images/rockOn_dark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Jumbotron copy */
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+.signUp form {
+  margin: 35px auto;
+  background-color: rgb(197, 204, 202);
+  padding: 25px;
+  border-radius: 7px;
+  width: 400px;
+}
+/* Footer  */
+
+.emailContain {
+  background-image: url(../images/emailBG.jpg);
+  background-position: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+footer form {
+  color: white;
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #F2F2F2;
+  --webkit-box-shadow-: 0 1px 4px, rgb(0, 0, 0, 0.3) 0 0 40px, rgb(0, 0, 0, 0.1) inset;
+  background-color: #505050;
+}
+
+form h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+.dropdown-menu {
+  left: -97px;
+}
+footer {
+  position: absolute;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  margin-top: 50px;
+}
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
+  background-color: rgb(197, 204, 202);
+}
